@@ -360,6 +360,7 @@ img {
 
 .more__container {
   row-gap: 2rem;
+  text-align: center;
 }
 
 .more__img img {
@@ -380,7 +381,7 @@ img {
 }
 
 .more__subtitle {
-  margin-top: -15%;
+  
   margin-bottom: var(--mb-2);
 }
 
@@ -467,8 +468,8 @@ img {
   }
   .more__container {
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    padding-top: 2rem;
+    align-items: center;
+    text-align: initial;
   }
 
   .portfolioship__container {
@@ -555,8 +556,8 @@ img {
     width: 200px;
   }
   .more__container {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
   }
   .shippystuff__container {
     grid-template-columns: repeat(3, 1fr);
